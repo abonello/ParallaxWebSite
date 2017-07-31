@@ -33,6 +33,11 @@ body, html {
     min-height: 100%;
 }
 
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
 .section-light {
     background-color: #f4f4f4;
     color: #666;
@@ -53,4 +58,14 @@ body, html {
     letter-spacing: 8px;
     text-transform: uppercase;
 
+}
+
+.ptext .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.ptext .border.trans {
+    background-color: transparent;
 }
